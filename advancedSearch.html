@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Advanced Search</title>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+  </head>
+  <body>
+    <header class="advanced-search-header">
+      <nav class="advanced-search-nav">
+        <div class="google-logo advanced-search-logo">
+          <span>G</span>
+          <span>o</span>
+          <span>o</span>
+          <span>g</span>
+          <span>l</span>
+          <span>e</span>
+        </div>
+        <div class="advanced-nav-links">
+          <a
+            class="image-search"
+            href="index.html"
+            >Google Search</a
+          >
+          <a
+            class="advanced-search"
+            href="imagesSearch.html"
+            >Image Search</a
+          >
+          <a href="googleApps.html"
+            ><img
+              class="app"
+              src="./assets//images/app.png"
+              alt="applications"
+          /></a>
+          <a href="googleAccount.html"
+            ><div
+              class="acc"
+              alt="account-info"
+            ></div
+          ></a>
+        </div>
+      </nav>
+      <div class="appbar">Advanced Search</div>
+    </header>
+
+    <section>
+      <div class="advanced-search-container">
+        <form
+          class=""
+          action="https://www.google.com/search"
+          method="GET"
+        >
+          <div class="advanced-search-box">
+            <div class="header search-row">
+              <div class="input-label-box">
+                <div class="title"><span>Find page with...</span></div>
+                <div class="input"></div>
+              </div>
+              <div class="header-description">
+                To do this in the search box.
+              </div>
+            </div>
+            <div class="all-words search-row">
+              <div class="input-label-box">
+                <div class="label"><label for="">all these words:</label></div>
+                <div class="input">
+                  <input
+                    type="text"
+                    name="as_q"
+                  />
+                </div>
+              </div>
+              <div class="description">
+                <div class="desc-title">Type the important words:</div>
+                <div class="desc-example">tri-colour rat terrier</div>
+              </div>
+            </div>
+            <div class="exact-words search-row">
+              <div class="input-label-box">
+                <div class="label">
+                  <label for="">this exact word or phrase:</label>
+                </div>
+                <div class="input">
+                  <input
+                    type="text"
+                    name="as_epq"
+                  />
+                </div>
+              </div>
+              <div class="description">
+                <div class="desc-title">Put exact words in quotes:</div>
+                <div class="desc-example">"rat terrier"</div>
+              </div>
+            </div>
+            <div class="any-words search-row">
+              <div class="input-label-box">
+                <div class="label">
+                  <label for="">any of these words:</label>
+                </div>
+                <div class="input">
+                  <input
+                    type="text"
+                    name="as_oq"
+                  />
+                </div>
+              </div>
+              <div class="description">
+                <div class="desc-title">
+                  Type OR between all the words you want:
+                </div>
+                <div class="desc-example">miniature OR standard</div>
+              </div>
+            </div>
+            <div class="none-words search-row">
+              <div class="input-label-box">
+                <div class="label">
+                  <label for="">none of these words:</label>
+                </div>
+                <div class="input">
+                  <input
+                    type="text"
+                    name="as_eq"
+                  />
+                </div>
+              </div>
+              <div class="description">
+                <div class="desc-title">
+                  Put a minus sighn just before words that you don't want:
+                </div>
+                <div class="desc-example">-rodent, -"Jack Russell"</div>
+              </div>
+            </div>
+            <div class="input-label-box">
+              <div class="input-button">
+                <input
+                  type="submit"
+                  value="Advanced Search"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="google-footer">
+      <div class="country">Ukraine</div>
+      <div class="footer-link about">
+        <a href="#">About</a>
+      </div>
+      <div class="footer-link advertising">
+        <a href="#">Advertising</a>
+      </div>
+      <div class="footer-link business">
+        <a href="#">Business</a>
+      </div>
+      <div class="footer-link how-it-works">
+        <a href="#">How Search works</a>
+      </div>
+      <div class="footer-link privacy">
+        <a href="#">Privacy</a>
+      </div>
+      <div class="footer-link terms">
+        <a href="#">Terms</a>
+      </div>
+      <div class="footer-link settings">
+        <a href="#">Settings</a>
+      </div>
+    </footer>
+  </body>
+</html>
